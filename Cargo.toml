@@ -1,0 +1,4 @@
+[package]
+name = "rust_playground"
+version = "1.0.0"
+edition =  "2021"

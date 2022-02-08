@@ -1,0 +1,10 @@
+{
+    "name": "Rust Playground",    
+    "dockerFile": "../Dockerfile",
+    "extensions": [
+        "eamodio.gitlens",
+        "mhutchie.git-graph",
+        "rust-lang.rust",
+        "bungcip.better-toml"
+    ]
+}
