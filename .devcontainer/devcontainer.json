@@ -1,10 +1,14 @@
 {
     "name": "Rust Playground",    
     "dockerFile": "../Dockerfile",
-    "extensions": [
-        "eamodio.gitlens",
-        "mhutchie.git-graph",
-        "rust-lang.rust",
-        "bungcip.better-toml"
-    ]
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "mhutchie.git-graph",
+          "tamasfe.even-better-toml",
+          "rust-lang.rust-analyzer",
+          "ms-azuretools.vscode-docker"
+        ]
+      }
+    }
 }
